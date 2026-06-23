@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth; 
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #181818;
+    display: flex;
+    justify-content: flex-start;
+    position: sticky; 
+    top: 0;
+    z-index: 9;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+    padding-left: 2%;
+}
+
+.nav-list a{
+    color: #ffffff;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.main{
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("images/earth-planet-stars-blue-marble-universe-world-sky-space-wallpaper-2560x1080_14.jpg");
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 80px);
+    padding-top: 20px;
+    padding-left: 1.5%;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.main h1{
+    color: #ffffff;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.main p{
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.barra{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.barra img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    padding-left: 3%;
+    transition: 0.9s;
+    object-fit: cover;
+}
+
+.barra img:hover{
+    transform: scale(1.4);
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+
+}
+
+.about img{
+    border-radius: 40px;
+}
+
+.about p{
+    padding-right: 10%;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.about h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
