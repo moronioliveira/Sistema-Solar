@@ -31,10 +31,15 @@ html{
     padding-left: 2%;
 }
 
+.nav-list a:hover{
+    color: aqua;
+}
+
 .nav-list a{
     color: #ffffff;
     margin-left: 8px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .main{

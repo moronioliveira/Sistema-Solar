@@ -1,0 +1,53 @@
+*{
+  margin:0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth; 
+}
+
+.nav{
+    background-color: #181818;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    top: 0;
+    align-items: center;
+}
+
+.lista{
+display: flex;
+justify-content: end;
+margin-left: 2%;
+}
+
+.nav h1{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+.nav img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.fundo{
+    background-image: url(images/black-and-white-skull-astronaut-wallpaper-2560x1080_14.jpg);
+    width: 100%;
+    height: calc(100vh - 90px);
+    background-size: cover;
+}
